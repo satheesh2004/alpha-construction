@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.content1{
+  height: 200px;
+}
+
+
+/* in your styles.css or inside a <style> tag if scoped */
+.slanted-left {
+  clip-path: polygon(20px 0, 100% 0%, 100% 100%, 0% 100%);
+}
